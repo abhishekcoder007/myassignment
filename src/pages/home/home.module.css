@@ -1,0 +1,40 @@
+body{
+    background-color: azure;
+    box-sizing: border-box;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: left;
+  }
+  .container{
+    
+    width:100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width:100%;
+    /* margin:51px; */
+  }
+.detailbutton{
+    background-color: rgb(217, 230, 230);
+    color:rgb(6, 6, 5);
+    cursor: pointer;
+    padding:5px;
+    border-radius: 5px;
+ }
+
+
+ .pagination{
+  text-align: center;
+ }
+
+ @media screen and (max-width: 480px){
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+  }
+ }

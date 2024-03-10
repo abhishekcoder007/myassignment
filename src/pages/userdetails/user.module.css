@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.maincontainer{
+    border:5px solid blue;
+    width:fit-content;
+   
+    background-color: aqua;
+    padding:1rem;
+}
+.container{
+    background-color: antiquewhite;
+    padding: 11px;
+    text-align: left;
+
+}
+.itemname{
+    font-size: xx-large;
+    font-family: "poppins";
+   
+
+}
+.item{
+    font-size: x-large;
+    font-family: "poppins";
+    padding-right: 5px;
+
+}
